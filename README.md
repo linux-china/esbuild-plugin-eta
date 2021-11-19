@@ -1,4 +1,4 @@
-esbuild-brotli-eta
+esbuild-plugin-eta
 ==================================
 An esbuild plugin for [Eta template engine](https://eta.js.org/).
 
