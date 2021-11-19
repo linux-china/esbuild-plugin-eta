@@ -1,0 +1,6 @@
+<%- /** @type { {name: string} } */ var it; %>
+<%- /** @type {(name: string, params?: object) => string} } */ var include; %>
+<p>Hello <%= it.name %></p>
+
+<% ~include('buttons/button1') %>
+<% ~include('links/link1') %>
