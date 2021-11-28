@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<%- /** @type { {title: string, body: string} } */ var it; %>
+<html lang="en">
+<head>
+    <title><%= it.title %></title>
+</head>
+<body>
+<% ~ it.body %>
+<footer>Copyright SomeCo, Inc.</footer>
+</body>
+</html>
