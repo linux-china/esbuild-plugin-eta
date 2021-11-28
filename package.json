@@ -1,7 +1,7 @@
 {
   "name": "esbuild-plugin-eta",
   "version": "0.1.0",
-  "description": "esbuild plugin eta",
+  "description": "esbuild plugin for Eta JS template",
   "main": "index.js",
   "scripts": {
     "test": "cd test; node build.js; node bundle.js"
