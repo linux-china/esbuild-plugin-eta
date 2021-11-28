@@ -1,6 +1,6 @@
 {
   "name": "esbuild-plugin-eta",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "description": "esbuild plugin eta",
   "main": "index.js",
   "scripts": {
@@ -8,13 +8,13 @@
   },
   "keywords": [
     "esbuild",
-    "brotli"
+    "eta"
   ],
   "author": "linux_china <libing.chen@gmail.com>",
   "repository": "https://github.com/linux-china/esbuild-plugin-eta",
   "license": "ISC",
   "dependencies": {
-    "esbuild": "^0.13.14",
+    "esbuild": "^0.14.0",
     "eta": "^1.12.3"
   }
 }
