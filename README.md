@@ -35,3 +35,8 @@ esbuild.build({
     console.log(result.outputFiles[0].text);
 }).catch(() => process.exit(1));
 ```
+
+# References
+
+* Eta: Lightweight, powerful, pluggable embedded JS template engine [https://eta.js.org/](https://eta.js.org/)
+* esbuild: [https://esbuild.github.io/](https://esbuild.github.io/)
