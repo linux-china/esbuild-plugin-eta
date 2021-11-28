@@ -1,6 +1,6 @@
 <%- /** @type { {name: string} } */ var it; %>
 
-<% layout('layout') %>
+<% layout('layout', {title: "Hi title"}) %>
 
 <div id="content">
     <p><%= it.name %></p>
