@@ -1,4 +1,4 @@
-import {templates, render as renderEta} from "eta";
+import {templates, render} from "eta";
 // import all partials
 import button1 from "./partials/button.eta";
 import link1 from "./partials/link.eta";
@@ -10,5 +10,5 @@ templates.define("buttons/button1", button1);
 templates.define("links/link1", link1);
 templates.define("layout", defaultLayout);
 // render template view
-const output = renderEta(indexTemplate, {name: "linux_china"})
+const output = render(indexTemplate, {name: "linux_china"})
 console.log(output);
