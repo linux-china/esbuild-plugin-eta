@@ -9,12 +9,12 @@ eta.configure({
 const name = 'eta'
 
 const setup = ({onResolve, onLoad}) => {
-    onResolve({filter: /\.eta$/}, ({path, resolveDir}) => ({
+    onResolve({filter: /\.(eta|ejs)$/}, ({path, resolveDir}) => ({
         path: path,
         namespace: 'eta-ns',
         pluginData: {resolveDir}
     }));
-    onLoad({filter: /\.eta$/, namespace: 'eta-ns'}, buildEtaTemplateFunction);
+    onLoad({filter: /\.(eta|ejs)$/, namespace: 'eta-ns'}, buildEtaTemplateFunction);
 }
 
 const buildEtaTemplateFunction = async ({path, pluginData}) => {
