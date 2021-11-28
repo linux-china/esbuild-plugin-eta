@@ -3,7 +3,7 @@ const fs = require('fs');
 const eta = require("eta");
 
 eta.configure({
-    includeFile: undefined
+    includeFile: undefined //disable includeFile function for single bundle
 });
 
 const name = 'eta'
