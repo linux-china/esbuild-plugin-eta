@@ -1,6 +1,10 @@
 const {resolve} = require('path');
 const fs = require('fs');
-const eta = require("eta")
+const eta = require("eta");
+
+eta.configure({
+    includeFile: undefined
+});
 
 const name = 'eta'
 
