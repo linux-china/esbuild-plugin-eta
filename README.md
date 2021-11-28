@@ -5,18 +5,18 @@ An esbuild plugin for [Eta template engine](https://eta.js.org/).
 # How to use?
 
 ```javascript
-import * as Eta from "eta";
+import {templates, render} from "eta";
 
 import button1 from "./partials/button.eta";
 import link1 from "./partials/link.eta";
 import defaultLayout from "./layout/index.eta";
 import indexTemplate from "./views/index.eta";
 
-Eta.templates.define("buttons/button1", button1);
-Eta.templates.define("links/link1", link1);
-eta.templates.define("layout", defaultLayout);
+templates.define("buttons/button1", button1);
+templates.define("links/link1", link1);
+templates.define("layout", defaultLayout);
 
-const output = Eta.render(indexTemplate, {name: "linux_china"});
+const output = render(indexTemplate, {name: "linux_china"});
 console.log(output);
 ```
 
